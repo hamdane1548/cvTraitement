@@ -14,6 +14,6 @@ public class UsersDto {
     private String email;
     private String password;
     private AccountState active;
-    private CompanyWorkspace companyWorkspace;
-    private Role role;
+    private Long companyWorkspace;
+    private Long role;
 }

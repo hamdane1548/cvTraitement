@@ -15,6 +15,6 @@ public class Licence {
     private Long id;
     private String Licence;
     @OneToOne
-    @JoinColumn(name = "companyworkspace",unique = true)
+    @JoinColumn(name = "company_workspace_id",unique = true)
     private CompanyWorkspace companyWorkspace;
 }
